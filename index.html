@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Select gender:
+                <label for="gender1">Male</label>
+                <input type="radio" id="gender1" name="gender" value="male">
+                <label for="gender1">Female</label>
+                <input type="radio" id="gender2" name="gender" value="female">
+            </legend>
+        </fieldset>
+        <div class="results-wrapper">
+            <label for="results">Select number of people to create:</label>
+            <select name="results" id="results"></select>
+        </div>
+
+        <div class="countriesWrapper">
+            <label for="countries">Select country:</label>
+            <select name="countries" id="countries"></select>
+        </div>
+
+        <input type="submit" id="submit-button" value="Generate selected person">
+    </form>
+
+    <form id="randomForm">
+        <input type="submit" id="random-submit-button" value="Generate random person">
+    </form>
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
