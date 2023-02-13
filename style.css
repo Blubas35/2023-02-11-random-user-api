@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    column-gap: 50px;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    box-shadow: 1px 11px 35px 0px rgba(125, 123, 123, 0.76);
+    padding: 25px;
+    height: 100%;
+    position: sticky;
+    top: 10px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 9px;
+
+}
+
+.random-user-wrapper {
+    width: calc((100% / 3) * 2);
+    display: grid;
+    row-gap: 30px;
+}
+
+.random-user.new {
+    box-shadow: 1px 11px 35px 0px rgba(125, 123, 123, 0.76);
+    padding: 25px;
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
